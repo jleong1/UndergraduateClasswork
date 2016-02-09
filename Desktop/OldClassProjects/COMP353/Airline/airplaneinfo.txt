@@ -1,0 +1,15 @@
+insert into AIRPORT(airport_code,name, city, state) values ('CMH','Port Columbus Int', 'Columbus','OH'), ('ATL','Atlanta Int', 'Atlanta','GA'),('LAX','Los Angeles Int','Los Angeles','CA'), ('ORD','Ohare Int', 'Chicago','IL'), ('DFW','Dallas/Fort Worth Int','Dallas','TX');
+
+insert into FLIGHT (flight_number, airline, weekdays) values (1111,'Spirt','MWF'),(1234,'American Airlines','WTHF'),(2234,'Delta','SSDM'), (3456,'Southwest','TWTH'),(5678, 'United','FSSD');
+
+insert into AIRPLANE(airplaneID,total_num_of_seats) values (12,234),(23,123),(67,90),(38,70),(54,100);
+
+insert into FLIGHT_LEG(leg_number, departure_airport_code, scheduled_departure_time,arrival_airport_code, scheduled_arrival_time) values (1,'JFK','07:30','SEA','11:00'),(2,'SFO','13:25','MSP','15:29'),(3,'LAS','21:22','DTW','06:45'),(4,'PHX','10:24','BOS','14:38'),(5,'MIA','17:27','PHL','22:38'); 
+
+insert into LEG_INSTANCE(date,num_of_avail_seats) values ('01/23/2015',60),('02/03/2015',320),('03/13/2015',115),('04/30/2015',90),('05/19/2015',75); 
+
+insert into FARE(fare_code, amount,restrictions) values (23,300,'handicapp'),(90,50,'allergic'),(116,76,'veteran'),(900,45,'employee'),(14,20,'other');
+insert into CAN_LAND(airtype_name, airp_code) values ('King','DFW'), ('Queen', 'CMH'), ('Bower', 'ORD'), ('King', 'LAX'), ('Queen','ATL');
+insert into AIRPLANE_TYPE(airplane_type_name,max_seats,company) values ('Rower',23,'Company1'),('Boeing',110,'Company2'), ('Downer',78,'Company3'), ('Queen',34,'Company4'),('King', 234,'Company5');
+
+insert into SEAT_RESERVATION(f_num,seat_number,customer_name,customer_phone) values (1111,'A23','John Smith','234-345-2344'),(1234,'B21','Amy Winehouse','456-678-0394'),(2234,'C01','Richard Nixon','123-324-5678'),(3456,'D34','Bennie Marx','678-890-5678'),(5678,'E27','Howard Wright','222-345-3456');

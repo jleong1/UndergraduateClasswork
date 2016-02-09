@@ -1,0 +1,77 @@
+import org.junit.*;
+import static org.junit.Assert.*;
+import org.junit.runner.Result;
+import static org.junit.runner.JUnitCore.runClasses;
+import java.util.*;
+import java.io.*;
+
+public class Scores3Test
+{
+    public static void main(String[ ] args)
+    {
+        Result result = runClasses (Scores3Test.class);
+        System.out.println ("Tests run = " + result.getRunCount() +
+                                       "\nTests failed = " + result.getFailures());
+    } // method main   
+    
+    protected Scores3 scores;
+    
+    @Before
+    public void runBeforeEveryTest()
+    {
+        scores = new Scores3();
+    } // method runBeforeEveryTest
+    
+    @Test
+    public void scores3Test0() throws IOException
+    {                                        
+        Scanner fileScanner = new Scanner (new File ("scores3.in1"));
+        PrintWriter printWriter = new PrintWriter (new BufferedWriter (new FileWriter ("temp")));
+        
+        int actualSum = scores.addScores (fileScanner, printWriter);                    
+        
+        assertEquals (130, actualSum);        
+    } // method scores3Test0   
+    
+    @Test
+    public void scores3Test1() throws IOException
+    {                                        
+        Scanner fileScanner = new Scanner (new File ("scores3.in1"));
+        PrintWriter printWriter = new PrintWriter (new BufferedWriter (new FileWriter ("scores3.out1")));
+        
+        int actualSum = scores.addScores (fileScanner, printWriter);
+        printWriter.close();
+            
+        Scanner scActual = new Scanner (new File ("scores3.out1")),
+                scExpected = new Scanner (new File ("scores3.exp"));            
+        
+        final int INPUT_LINES = 4;
+        for (int i = 0; i < INPUT_LINES; i++)                 
+           assertEquals (scExpected.nextLine(), scActual.nextLine()); 
+        if (scExpected.hasNext())
+           fail();              
+    } // method scores3Test1                               
+    
+    @Test (expected = NumberFormatException.class)
+    public void scores3Test2() throws IOException
+    {                                        
+        Scanner fileScanner = new Scanner (new File ("scores3.in2"));
+        PrintWriter printWriter = new PrintWriter (new BufferedWriter (new FileWriter ("scores3.out2")));
+        
+        scores.addScores (fileScanner, printWriter);             
+    } // method scores3Test2   
+    
+    @Test (expected = NullPointerException.class)
+    public void scores3Test3() throws IOException
+    {                                                 
+        scores.addScores (null, new PrintWriter (new FileWriter("scores3.out3")));            
+    } // method scores3Test3 
+    
+    @Test (expected = NullPointerException.class)
+    public void scores3Test4() throws IOException
+    {                                                 
+        scores.addScores (new Scanner (new File("scores3.in1")), null);           
+    } // method scores3Test4        
+    
+} // class Scores3Test
+

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "djr", "djr\djr.csproj", "{E88502AC-1F4F-4479-AE27-29BE1ED72CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4", "Lab4\Lab4.csproj", "{FF147F35-69A5-48A8-84A9-5CEB734F0471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E88502AC-1F4F-4479-AE27-29BE1ED72CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E88502AC-1F4F-4479-AE27-29BE1ED72CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E88502AC-1F4F-4479-AE27-29BE1ED72CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E88502AC-1F4F-4479-AE27-29BE1ED72CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF147F35-69A5-48A8-84A9-5CEB734F0471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF147F35-69A5-48A8-84A9-5CEB734F0471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF147F35-69A5-48A8-84A9-5CEB734F0471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF147F35-69A5-48A8-84A9-5CEB734F0471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = djr\djr.csproj
+	EndGlobalSection
+EndGlobal

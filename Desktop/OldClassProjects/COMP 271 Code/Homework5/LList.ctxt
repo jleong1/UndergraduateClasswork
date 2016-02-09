@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LList()
+comment1.params=value
+comment1.target=void\ add(java.lang.Object)
+comment2.params=i
+comment2.target=java.lang.Object\ get(int)
+comment3.params=value
+comment3.target=void\ addFirst(java.lang.Object)
+comment4.params=value
+comment4.target=void\ addLast(java.lang.Object)
+comment5.params=i
+comment5.target=java.lang.Object\ remove(int)
+comment6.params=
+comment6.target=void\ printList()
+numComments=7

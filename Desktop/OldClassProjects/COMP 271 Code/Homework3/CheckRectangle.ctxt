@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=width\ length
+comment0.target=double\ computeArea(double,\ double)
+comment1.params=width\ length
+comment1.target=double\ computePerimeter(double,\ double)
+comment2.params=
+comment2.target=void\ displayRectangle()
+numComments=3

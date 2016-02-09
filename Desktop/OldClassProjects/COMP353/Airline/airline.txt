@@ -1,0 +1,203 @@
+mysql> select * from AIRPORT;
++--------------+----------------------+-------------+-------+
+| airport_code | name                 | city        | state |
++--------------+----------------------+-------------+-------+
+| ATL          | Atlanta Int          | Atlanta     | GA    |
+| CMH          | Port Columbus Int    | Columbus    | OH    |
+| DFW          | Dallas/Fort Worth In | Dallas      | TX    |
+| LAX          | Los Angeles Int      | Los Angeles | CA    |
+| ORD          | Ohare Int            | Chicago     | IL    |
++--------------+----------------------+-------------+-------+
+5 rows in set (0.00 sec)
+
+mysql> select * from FLIGHT;
++---------------+-------------------+----------+
+| flight_number | airline           | weekdays |
++---------------+-------------------+----------+
+|          1111 | Spirt             | MWF      |
+|          1234 | American Airlines | WTHF     |
+|          2234 | Delta             | SSDM     |
+|          3456 | Southwest         | TWTH     |
+|          5678 | United            | FSSD     |
++---------------+-------------------+----------+
+5 rows in set (0.00 sec)
+
+mysql> select * from FLIGHT_LEG;
++----------+------------+------------------------+--------------------------+----------------------+------------------------+
+| f_number | leg_number | departure_airport_code | scheduled_departure_time | arrival_airport_code | scheduled_arrival_time |
++----------+------------+------------------------+--------------------------+----------------------+------------------------+
+|        0 |          1 | JFK                    | 07:30                    | SEA                  | 11:00                  |
+|        0 |          2 | SFO                    | 13:25                    | MSP                  | 15:29                  |
+|        0 |          3 | LAS                    | 21:22                    | DTW                  | 06:45                  |
+|        0 |          4 | PHX                    | 10:24                    | BOS                  | 14:38                  |
+|        0 |          5 | MIA                    | 17:27                    | PHL                  | 22:38                  |
++----------+------------+------------------------+--------------------------+----------------------+------------------------+
+5 rows in set (0.00 sec)
+
+mysql> select * from LEG_INSTANCE;
++-----------+---------+------------+--------------------+-------------+----------------+-------------+-----------------+--------------+
+| flightnum | leg_num | date       | num_of_avail_seats | airplane_id | depart_aircode | depart_time | arrival_aircode | arrival_time |
++-----------+---------+------------+--------------------+-------------+----------------+-------------+-----------------+--------------+
+|      NULL |       0 | 01/23/2015 |                 60 |        NULL | NULL           | NULL        | NULL            | NULL         |
+|      NULL |       0 | 02/03/2015 |                320 |        NULL | NULL           | NULL        | NULL            | NULL         |
+|      NULL |       0 | 03/13/2015 |                115 |        NULL | NULL           | NULL        | NULL            | NULL         |
+|      NULL |       0 | 04/30/2015 |                 90 |        NULL | NULL           | NULL        | NULL            | NULL         |
+|      NULL |       0 | 05/19/2015 |                 75 |        NULL | NULL           | NULL        | NULL            | NULL         |
++-----------+---------+------------+--------------------+-------------+----------------+-------------+-----------------+--------------+
+5 rows in set (0.00 sec)
+
+mysql> select * from AIRPLANE_TYPE;
++--------------------+-----------+----------+
+| airplane_type_name | max_seats | company  |
++--------------------+-----------+----------+
+| Boeing             |       110 | Company2 |
+| Downer             |        78 | Company3 |
+| King               |       234 | Company5 |
+| Queen              |        34 | Company4 |
+| Rower              |        23 | Company1 |
++--------------------+-----------+----------+
+5 rows in set (0.00 sec)
+
+mysql> select * from AIRPLANE;
++------------+--------------------+----------------+
+| airplaneID | total_num_of_seats | airplane_typen |
++------------+--------------------+----------------+
+|         12 |                234 | NULL           |
+|         23 |                123 | NULL           |
+|         38 |                 70 | NULL           |
+|         54 |                100 | NULL           |
+|         67 |                 90 | NULL           |
++------------+--------------------+----------------+
+5 rows in set (0.00 sec)
+
+mysql> select * from FARE;
++-----------+-----------+--------+--------------+
+| flinumber | fare_code | amount | restrictions |
++-----------+-----------+--------+--------------+
+|      NULL |        14 |     20 | other        |
+|      NULL |       900 |     45 | employee     |
+|      NULL |        90 |     50 | allergic     |
+|      NULL |       116 |     76 | veteran      |
+|      NULL |        23 |    300 | handicapp    |
++-----------+-----------+--------+--------------+
+5 rows in set (0.00 sec)
+
+mysql> select * from SEAT_RESERVATION;
++-------+-------+------+-------------+---------------+----------------+
+| f_num | l_num | dat  | seat_number | customer_name | customer_phone |
++-------+-------+------+-------------+---------------+----------------+
+|  NULL |  NULL | NULL | B21         | Amy Winehouse | 456-678-0394   |
+|  NULL |  NULL | NULL | D34         | Bennie Marx   | 678-890-5678   |
+|  NULL |  NULL | NULL | E27         | Howard Wright | 222-345-3456   |
+|  NULL |  NULL | NULL | A23         | John Smith    | 234-345-2344   |
+|  NULL |  NULL | NULL | C01         | Richard Nixon | 123-324-5678   |
++-------+-------+------+-------------+---------------+----------------+
+5 rows in set (0.00 sec)
+
+mysql> show columns from AIRPORT;
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| airport_code | varchar(3)  | NO   | PRI |         |       |
+| name         | varchar(20) | YES  |     | NULL    |       |
+| city         | varchar(15) | YES  |     | NULL    |       |
+| state        | varchar(2)  | YES  |     | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+mysql> show columns from FLIGHT;
++---------------+-------------+------+-----+---------+-------+
+| Field         | Type        | Null | Key | Default | Extra |
++---------------+-------------+------+-----+---------+-------+
+| flight_number | int(11)     | NO   | PRI | 0       |       |
+| airline       | varchar(20) | YES  |     | NULL    |       |
+| weekdays      | varchar(5)  | YES  |     | NULL    |       |
++---------------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> show columns from FLIGHT_LEG;
++--------------------------+------------+------+-----+---------+-------+
+| Field                    | Type       | Null | Key | Default | Extra |
++--------------------------+------------+------+-----+---------+-------+
+| f_number                 | int(11)    | NO   | PRI | 0       |       |
+| leg_number               | int(11)    | NO   | PRI | 0       |       |
+| departure_airport_code   | varchar(3) | NO   | PRI |         |       |
+| scheduled_departure_time | varchar(5) | NO   | PRI |         |       |
+| arrival_airport_code     | varchar(3) | NO   | PRI |         |       |
+| scheduled_arrival_time   | varchar(5) | NO   | PRI |         |       |
++--------------------------+------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> show columns from LEG_INSTANCE;
++--------------------+-------------+------+-----+---------+-------+
+| Field              | Type        | Null | Key | Default | Extra |
++--------------------+-------------+------+-----+---------+-------+
+| flightnum          | int(11)     | YES  | MUL | NULL    |       |
+| leg_num            | int(11)     | NO   | PRI | 0       |       |
+| date               | varchar(10) | NO   | PRI |         |       |
+| num_of_avail_seats | int(11)     | YES  |     | NULL    |       |
+| airplane_id        | int(11)     | YES  | MUL | NULL    |       |
+| depart_aircode     | varchar(3)  | YES  |     | NULL    |       |
+| depart_time        | varchar(5)  | YES  |     | NULL    |       |
+| arrival_aircode    | varchar(3)  | YES  |     | NULL    |       |
+| arrival_time       | varchar(5)  | YES  |     | NULL    |       |
++--------------------+-------------+------+-----+---------+-------+
+9 rows in set (0.00 sec)
+
+mysql> show columns from AIRPLANE_TYPE;
++--------------------+-------------+------+-----+---------+-------+
+| Field              | Type        | Null | Key | Default | Extra |
++--------------------+-------------+------+-----+---------+-------+
+| airplane_type_name | varchar(20) | NO   | PRI |         |       |
+| max_seats          | int(11)     | YES  |     | NULL    |       |
+| company            | varchar(8)  | YES  |     | NULL    |       |
++--------------------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> show columns from CAN_LAND;
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| airtype_name | varchar(20) | NO   | PRI |         |       |
+| airp_code    | varchar(3)  | YES  | MUL | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql> show columns from AIRPLANE;
++--------------------+-------------+------+-----+---------+-------+
+| Field              | Type        | Null | Key | Default | Extra |
++--------------------+-------------+------+-----+---------+-------+
+| airplaneID         | int(11)     | NO   | PRI | 0       |       |
+| total_num_of_seats | int(11)     | YES  |     | NULL    |       |
+| airplane_typen     | varchar(20) | YES  | MUL | NULL    |       |
++--------------------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> show columns from FARE:
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':' at line 1
+mysql> show columns from FARE;
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| flinumber    | int(11)     | YES  | MUL | NULL    |       |
+| fare_code    | int(11)     | YES  |     | NULL    |       |
+| amount       | int(11)     | NO   | PRI | 0       |       |
+| restrictions | varchar(10) | YES  |     | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+mysql> show columns from SEAT_RESERVATION;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| f_num          | int(11)     | YES  | MUL | NULL    |       |
+| l_num          | int(11)     | YES  |     | NULL    |       |
+| dat            | varchar(10) | YES  |     | NULL    |       |
+| seat_number    | varchar(3)  | YES  |     | NULL    |       |
+| customer_name  | varchar(30) | NO   | PRI |         |       |
+| customer_phone | varchar(13) | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> notee;

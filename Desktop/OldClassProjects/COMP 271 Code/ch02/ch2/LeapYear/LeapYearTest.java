@@ -1,0 +1,72 @@
+import org.junit.*;
+import static org.junit.Assert.*;
+import org.junit.runner.Result;
+import static org.junit.runner.JUnitCore.runClasses;
+
+import java.util.*;
+
+public class LeapYearTest
+{
+    public static void main(String[ ] args)
+    {
+        Result result = runClasses (LeapYearTest.class);
+        System.out.println ("Tests run = " + result.getRunCount() +
+                            "\nTests failed = " + result.getFailures());
+    } // method main   
+
+    protected LeapYear leap;
+    
+    protected boolean answer;
+
+    @Before
+    public void runBeforeEveryTest() 
+    {   
+        leap = new LeapYear();                
+    } // method runBeforeEveryTest
+
+    @Test    
+    public void leapYearTest1() 
+    {                               
+        answer = leap.isLeapYear (new Scanner ("2000"));                    
+        assertEquals (true, answer);       
+    } // method leapYearTest1
+    
+    @Test
+    public void leapYearTest2()
+    {        
+        answer = leap.isLeapYear (new Scanner ("2100"));                    
+        assertEquals (false, answer); 
+    } // method leapYearTest2
+    
+   @Test 
+    public void leapYearTest3()
+    {        
+         answer = leap.isLeapYear (new Scanner ("1582"));  
+         assertEquals (false, answer);
+    } // method leapYearTest3
+    
+    @Test (expected = InputMismatchException.class)
+    public void leapYearTest4()
+    {            
+        leap.isLeapYear (new Scanner ("201o"));          
+    } // method leapYearTest4                
+    
+    @Test (expected = NoSuchElementException.class)
+    public void leapYearTest5()
+    {
+        leap.isLeapYear (new Scanner (""));             
+    } // method leapYearTest5
+    
+    @Test (expected = NullPointerException.class)
+    public void leapYearTest6()
+    {        
+         leap.isLeapYear (null);                              
+    } // method leapYearTest6
+                      
+    @Test (expected = IllegalArgumentException.class)
+    public void leapYearTest7()
+    {        
+         leap.isLeapYear (new Scanner ("1581"));                              
+    } // method leapYearTest6
+                      
+} // class LeapYearTest

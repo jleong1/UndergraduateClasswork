@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\Julie Leong\COMP313_Projects\cs313f14team9p4supplement\ClickCounter\src\androidTest\assets" />
+    </dataSet>
+
+</merger>

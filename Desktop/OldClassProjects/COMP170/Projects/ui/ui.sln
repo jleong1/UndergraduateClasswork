@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uif", "ui\uif.csproj", "{A4CB619E-1EB1-42A6-A91C-5888CAD6E0DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ui", "uif\ui.csproj", "{EA7C8BF7-6BF2-4B40-89E0-1918F87AFF02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4CB619E-1EB1-42A6-A91C-5888CAD6E0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CB619E-1EB1-42A6-A91C-5888CAD6E0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CB619E-1EB1-42A6-A91C-5888CAD6E0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CB619E-1EB1-42A6-A91C-5888CAD6E0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7C8BF7-6BF2-4B40-89E0-1918F87AFF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7C8BF7-6BF2-4B40-89E0-1918F87AFF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7C8BF7-6BF2-4B40-89E0-1918F87AFF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7C8BF7-6BF2-4B40-89E0-1918F87AFF02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ui\uif.csproj
+	EndGlobalSection
+EndGlobal

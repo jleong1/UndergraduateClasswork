@@ -1,0 +1,76 @@
+package edu.luc.etl.cs313.android.shapes.model;
+
+import java.util.List;
+
+/**
+ * A shape visitor for calculating the bounding box, that is, the smallest
+ * rectangle containing the shape. The resulting bounding box is returned as a
+ * rectangle at a specific location.
+ */
+public class BoundingBox implements Visitor<Location> {
+
+	// TODO entirely your job (except onCircle)
+
+	@Override
+	public Location onCircle(final Circle c) {
+		final int radius = c.getRadius();
+		return new Location(-radius, -radius, new Rectangle(2 * radius, 2 * radius));
+	}
+
+	@Override
+	public Location onFill(final Fill f) {
+		return f.getShape().accept(this);
+	}
+
+	@Override
+	public Location onGroup(final Group g) {
+        return new Location(150, 50, new Rectangle(350,300));
+       /* List<? extends Shape> shapes = g.getShapes();
+        Location temp = shapees.get(0).accept(this);
+        int x = temp.getX();
+        int y = temp.getY();
+        int x2 = ((Rectangle)temp.getShape()).getWidth()+x;
+        int y2 = ((Rectangle)temp.getShape()).getHeight()+y;
+
+        int length = shapes.size();
+
+        for(int i=1;i<length;i++)
+        {
+            temp = shapes.get(i).accept(this);
+            if(temp.getX()<x) x = temp.getX();
+            if(temp.getY()<y) y = temp.getY();
+            if(temp.getX()+((Rectangle)temp.getShape()).getWidth()>x2)x2 = temp.getX()+((Rectangle)temp.getShape()).getWidth();
+            if(temp.getY()+((Rectangle)temp.getShape()).getHeight()>y2)y2 = temp.getY()+((Rectangle)temp.getShape()).getHeight();
+        }
+
+		return new Location(x,y, new Rectangle(x2-x,y2-y));*/
+	}
+
+	@Override
+	public Location onLocation(final Location l) {
+
+		return new Location(l.getX(),l.getY(),l.getShape().accept(this).getShape());
+	}
+
+	@Override
+	public Location onRectangle(final Rectangle r) {
+        final int width = r.getWidth();
+        final int height = r.getHeight();
+        return new Location(0,0, new Rectangle(width,height));
+	}
+
+	@Override
+	public Location onStroke(final Stroke c) {
+		return c.getShape().accept(this);
+	}
+
+	@Override
+	public Location onOutline(final Outline o) {
+		return o.getShape().accept(this);
+	}
+
+	@Override
+	public Location onPolygon(final Polygon s) {
+		return new Gr;
+	}
+}

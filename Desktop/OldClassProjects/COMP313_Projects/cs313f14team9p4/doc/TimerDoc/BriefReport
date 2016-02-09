@@ -1,0 +1,26 @@
+
+Date: 11/16/14
+@author Julie and Conor
+
+For this particular project, it was a process of first becoming familiar with the existing stopwatch
+and ClickCounter code for each partner before implementing any new code.  Then the next part was
+choosing what plans/designs we wanted to work with.  We decided to work with the state design,
+making a state for each function of the stopwatch such as stop, alarm, set, run.  It seemed easier
+to think about a timer that way.  In terms of actually implementing the code, it was kind of
+difficult to get rid of the unnecessary code in Stopwatch that was not going to relate to Timer.
+The refactoring done had to be done in order to make the new code work.  Also refactoring the old
+code makes the new code more efficient.  Android studio does tell when some method or class is
+not being used, so we went back and tried to get rid of all the inefficiencies. When we were
+actually coding, one would come up some idea, and the other would focus on checking the
+functionality of the code.  It seemed to work pretty well.  Once we were done coding we
+focused on testing and making tests that were best suited for Timer rather than Stopwatch.
+Though we did use some testing methods from Stopwatch/Timer since it already tested what we
+wanted to be tested.  Throughout the project we did use the repository to commit and this
+made it easier to understand what the other partner was thinking without having to meet them.
+Our state machine model was our code.  It helped develop a plan for what we needed.
+If we had started coding before creating a model, we would have been blindly putting
+stuff down.  The code would not have been as efficient or simplified.  Though, if there were
+any changes that could be made to the model, we would have added an arrow from alarm to
+running state to signify that when the timer starts decrementing, the timer beeps.  We also
+should have added another arrow from alarm to alarm state to represent that if the button
+isn’t pressed, the timer stays in alarm state.

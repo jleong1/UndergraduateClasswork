@@ -1,0 +1,6 @@
+For our initial model, we tried using GridView to create the grid that would be used as a playing
+board. This turned out the be an ineffective method so we ended up scraping the idea and drawing
+multiple rectangles using a 'for loop' to look like a grid. We used the State Design pattern which
+was used to create the two states, vulnerable and protected, that the monster switches between. We
+ended up keeping TouchMe.java (which incorporates other parts of the project) from the original
+project, but modified it so that it would work with everything we added to the project.

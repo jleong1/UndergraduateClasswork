@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="return2\return2.cs">
+    <Files>
+      <File FileName="searching\searching.cs" Line="1" Column="1" />
+      <File FileName="loop_lab_stub\loop_lab.cs" Line="1" Column="1" />
+      <File FileName="grade_file_homework_stub\grade_files.cs" Line="9" Column="5" />
+      <File FileName="good_scope\good_scope.cs" Line="1" Column="1" />
+      <File FileName="array_lab_stub\array_lab.cs" Line="1" Column="1" />
+      <File FileName="check_digits1\check_digits1.cs" Line="1" Column="1" />
+      <File FileName="dict_lab_stub\fake_help.cs" Line="1" Column="1" />
+      <File FileName="return1\return1.cs" Line="1" Column="1" />
+      <File FileName="return2\return2.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Julie Leong\Desktop\MonoExamples\source\examples\check_digits1\check_digits1.cs" line="11" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

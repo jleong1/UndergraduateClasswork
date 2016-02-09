@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+ <h1>Employee Tables</h1>
+
+<p>
+<body bgcolor="white" text="black">
+<?php
+$dbhost = 'localhost';
+$dbuser = 'jleong1';
+$dbpass = 'p32872';
+$db= 'jleong1_a5';
+$table = 'EMP';
+$table1 = 'DEPT';
+
+$shc ='mysql -ujleong1 -pp32872 <emp.sql';
+$ret=shell_exec($shc);
+echo "<pre>$ret</pre>";
+
+$_POST["name"];
+$_POST["dname"];
+$_POST["dno"];
+$_POST["id"];
+$_POST["dnumber"];
+
+$conn = new mysqli($dbhost, $dbuser, $dbpass, $db);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+
+$sql = "INSERT INTO EMP (name,id,dnumber)
+VALUES ($_POST["name"],$_POST["id"],$_POST["dnumber"])";
+
+$sql = "INSERT INTO DEPT (dname,dno)
+VALUES ($_POST["dname"], $_POST["dno"])";
+
+$result = mysql_query("SELECT * FROM {$table}");
+if (!$result) {
+    die("Query to show fields from table failed");
+}
+
+$fields_num = mysql_num_fields($result);
+
+echo "<h1>Table: {$table}</h1>";
+echo "<table border='1'><tr>";
+
+for($i=0; $i<$fields_num; $i++)
+{
+    $field = mysql_fetch_field($result);
+    echo "<td>{$field->name}</td>";
+}
+echo "</tr>\n";
+while($row = mysql_fetch_row($result))
+{
+    echo "<tr>";
+    foreach($row as $cell)
+        echo "<td>$cell</td>";
+    echo "</tr>\n";
+}
+mysql_free_result($result);
+
+$result = mysql_query("SELECT * FROM {$table1}");
+if (!$result) {
+    die("Query to show fields from table failed");
+}
+
+$fields_num = mysql_num_fields($result);
+
+echo "<h1>Table: {$table1}</h1>";
+echo "<table border='1'><tr>";
+
+for($i=0; $i<$fields_num; $i++)
+{
+    $field = mysql_fetch_field($result);
+    echo "<td>{$field->name}</td>";
+}
+echo "</tr>\n";
+while($row = mysql_fetch_row($result))
+{
+    echo "<tr>";
+    foreach($row as $cell)
+        echo "<td>$cell</td>";
+    echo "</tr>\n";
+}
+mysql_free_result($result);
+echo "Tables employee and department created successfully\n";
+
+//mysql_close($conn);
+$conn->close();
+?>
+</body>
+</p>
+ 
+</body>
+</html>

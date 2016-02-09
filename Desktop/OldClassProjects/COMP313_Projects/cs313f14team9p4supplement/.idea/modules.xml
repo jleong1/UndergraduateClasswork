@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClickCounter/ClickCounter.iml" filepath="$PROJECT_DIR$/ClickCounter/ClickCounter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cs313f14team9p4supplement.iml" filepath="$PROJECT_DIR$/cs313f14team9p4supplement.iml" />
+    </modules>
+  </component>
+</project>
+

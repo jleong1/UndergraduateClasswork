@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5", "Lab5\Lab5.csproj", "{EA67A45A-E3F8-4801-BFF9-D2740AC8DC2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5Code", "Lab5Code\Lab5Code.csproj", "{5FAF90E1-AB0F-42B9-B977-147228CFA253}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FAF90E1-AB0F-42B9-B977-147228CFA253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAF90E1-AB0F-42B9-B977-147228CFA253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAF90E1-AB0F-42B9-B977-147228CFA253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAF90E1-AB0F-42B9-B977-147228CFA253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA67A45A-E3F8-4801-BFF9-D2740AC8DC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA67A45A-E3F8-4801-BFF9-D2740AC8DC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA67A45A-E3F8-4801-BFF9-D2740AC8DC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA67A45A-E3F8-4801-BFF9-D2740AC8DC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Lab5\Lab5.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+80
+java.util.InputMismatchException: x
+50
+java.util.InputMismatchException: y
+
+
+The sum of the scores is 130

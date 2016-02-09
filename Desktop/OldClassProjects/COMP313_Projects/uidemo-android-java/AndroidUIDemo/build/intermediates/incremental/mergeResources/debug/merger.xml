@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\Julie Leong\COMP313_Projects\uidemo-android-java\AndroidUIDemo\src\main\res" >
+            <file
+                name="icon"
+                path="C:\Users\Julie Leong\COMP313_Projects\uidemo-android-java\AndroidUIDemo\src\main\res\drawable-hdpi\icon.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="trashcan"
+                path="C:\Users\Julie Leong\COMP313_Projects\uidemo-android-java\AndroidUIDemo\src\main\res\drawable-hdpi\trashcan.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="C:\Users\Julie Leong\COMP313_Projects\uidemo-android-java\AndroidUIDemo\src\main\res\drawable-ldpi\icon.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="trashcan"
+                path="C:\Users\Julie Leong\COMP313_Projects\uidemo-android-java\AndroidUIDemo\src\main\res\drawable-ldpi\trashcan.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="C:\Users\Julie Leong\COMP313_Projects\uidemo-android-java\AndroidUIDemo\src\main\res\drawable-mdpi\icon.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main"
+                path="C:\Users\Julie Leong\COMP313_Projects\uidemo-android-java\AndroidUIDemo\src\main\res\layout\main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="simple_menu"
+                path="C:\Users\Julie Leong\COMP313_Projects\uidemo-android-java\AndroidUIDemo\src\main\res\menu\simple_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\Julie Leong\COMP313_Projects\uidemo-android-java\AndroidUIDemo\src\main\res\values\colors.xml"
+                qualifiers="" >
+                <color name="green" >#ff00ff00
+                </color>
+                <color name="red" >#ffff0000
+                </color>
+                <color name="dk_grey" >#666666
+                </color>
+                <color name="lt_grey" >#dddddd
+                </color>
+                <color name="grey" >#999999
+                </color>
+                <color name="white" >#ffffffff
+                </color>
+            </file>
+            <file
+                path="C:\Users\Julie Leong\COMP313_Projects\uidemo-android-java\AndroidUIDemo\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="labelRed" >Red
+                </string>
+                <string name="app_name" >TouchMe
+                </string>
+                <string name="defaultText" >0
+                </string>
+                <string name="menuClear" >Clear
+                </string>
+                <string name="labelGreen" >Green
+                </string>
+            </file>
+        </source>
+        <source path="C:\Users\Julie Leong\COMP313_Projects\uidemo-android-java\AndroidUIDemo\build\generated\res\rs\debug" />
+        <source path="C:\Users\Julie Leong\COMP313_Projects\uidemo-android-java\AndroidUIDemo\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Julie Leong\COMP313_Projects\uidemo-android-java\AndroidUIDemo\src\debug\res" />
+    </dataSet>
+
+</merger>

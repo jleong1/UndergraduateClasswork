@@ -1,0 +1,20 @@
+<Combine fileversion="2.0">
+  <Configurations active="Debug">
+    <Configuration name="Debug" ctype="CombineConfiguration">
+      <Entry build="True" name="djr" configuration="Debug" />
+      <Entry build="True" name="Lab4" configuration="Debug" />
+    </Configuration>
+    <Configuration name="Release" ctype="CombineConfiguration">
+      <Entry build="True" name="djr" configuration="Release" />
+      <Entry build="True" name="Lab4" configuration="Release" />
+    </Configuration>
+  </Configurations>
+  <StartMode startupentry="djr" single="True">
+    <Execute type="None" entry="djr" />
+    <Execute type="None" entry="Lab4" />
+  </StartMode>
+  <Entries>
+    <Entry filename="djr\djr.mdp" />
+    <Entry filename="Lab4\Lab4.mdp" />
+  </Entries>
+</Combine>

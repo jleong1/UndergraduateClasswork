@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArrayDelete()
+comment1.params=value
+comment1.target=int\ findPosition(int)
+comment2.params=position
+comment2.target=void\ Delete(int)
+comment3.params=
+comment3.target=void\ arrayInit()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

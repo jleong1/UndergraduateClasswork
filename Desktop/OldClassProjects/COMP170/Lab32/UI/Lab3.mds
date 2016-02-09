@@ -1,0 +1,16 @@
+<Combine fileversion="2.0">
+  <Configurations active="Debug">
+    <Configuration name="Debug" ctype="CombineConfiguration">
+      <Entry build="True" name="Lab3" configuration="Debug" />
+    </Configuration>
+    <Configuration name="Release" ctype="CombineConfiguration">
+      <Entry build="True" name="Lab3" configuration="Release" />
+    </Configuration>
+  </Configurations>
+  <StartMode startupentry="Lab3" single="True">
+    <Execute type="None" entry="Lab3" />
+  </StartMode>
+  <Entries>
+    <Entry filename="Lab3.mdp" />
+  </Entries>
+</Combine>

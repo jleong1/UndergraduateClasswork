@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getName()
+comment0.text=\r\n\ \ Returns\ this\ Employee\ object\uFFFDs\ name.\ \ \r\n\r\n\ \ @return\ this\ Employee\ object\uFFFDs\ name.\ \ \ \r\n\ \r\n
+comment1.params=
+comment1.target=double\ getGrossPay()
+comment1.text=\r\n\ \ Returns\ this\ Employee\ object\uFFFDs\ gross\ pay.\ \ \r\n\r\n\ \ @return\ this\ Employee\ object\uFFFDs\ gross\ pay.\ \ \ \r\n\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ \ Returns\ a\ String\ representation\ of\ this\ Employee\ object\ with\ the\ name\ \r\n\ \ followed\ by\ a\ space\ followed\ by\ a\ dollar\ sign\ followed\ by\ the\ gross\ \r\n\ \ weekly\ pay,\ with\ two\ fractional\ digits\ (rounded).\r\n\r\n\ \ @return\ a\ String\ representation\ of\ this\ Employee\ object.\r\n\r\n
+numComments=3

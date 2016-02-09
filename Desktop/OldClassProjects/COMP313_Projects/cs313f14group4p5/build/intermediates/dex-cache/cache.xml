@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Julie Leong\COMP313_Projects\cs313f14group4p5\AndroidUIDemo\build\intermediates\pre-dexed\debug\junit-4.5-5ac4edca00780f3e59d4a4500e57730e5b8e8d89.jar"
+        jar="C:\Users\Julie Leong\.gradle\caches\modules-2\files-2.1\junit\junit\4.5\7059d3d3bedc1fca9b33cde8503095b3576a0bba\junit-4.5.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7059d3d3bedc1fca9b33cde8503095b3576a0bba"/>
+
+</pre-dex-items>

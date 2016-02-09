@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/Julie%20Leong/COMP313_Projects/cs313f14team9p4supplement/ClickCounter/src/main/res/values-v14/styles.xml -->
+    <eat-comment />
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar" />
+
+</resources>

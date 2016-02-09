@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=sc
+comment1.target=HourlyEmployee\ getNextEmployee(java.util.Scanner)
+comment1.text=\r\n\ \ Returns\ the\ next\ hourly\ employee\ from\ the\ specified\ Scanner\ object.\ \r\n\ \ \r\n\ \ @param\ sc\ the\ Scanner\ object\ used\ to\ scan\ in\ the\ next\ employee.\r\n\r\n\ \ @return\ the\ next\ hourly\ employee\ scanned\ in\ from\ sc.\r\n\r\n
+numComments=2

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FullTimeEmployee()
+comment0.text=\r\n\ \ Initializes\ this\ FullTimeEmployee\ object\ to\ have\ an\ empty\ string\ for\ the\r\n\ \ name\ and\ 0.00\ for\ the\ gross\ pay.\r\n\ \r\n
+comment1.params=name\ grossPay
+comment1.target=FullTimeEmployee(java.lang.String,\ double)
+comment1.text=\r\n\ \ Initializes\ this\ FullTimeEmployee\ object's\ name\ and\ gross\ pay\ from\ a\r\n\ \ a\ specified\ name\ and\ gross\ pay.\r\n\r\n\ \ @param\ name\ -\ the\ specified\ name.\r\n\ \ @param\ grossPay\ -\ the\ specified\ gross\ pay.\r\n\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ \ \ Returns\ the\ name\ of\ this\ FullTimeEmployee\ object.\ \ \ \ \ \r\n\r\n\ \ @return\ the\ name\ of\ this\ FullTimeEmployee\ object.\r\n\ \r\n
+comment3.params=
+comment3.target=double\ getGrossPay()
+comment3.text=\r\n\ \ \ Returns\ the\ gross\ pay\ of\ this\ FullTimeEmployee\ object.\ \ \ \ \ \r\n\r\n\ \ @return\ the\ gross\ pay\ of\ this\ FullTimeEmployee\ object.\r\n\ \r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ \ Returns\ a\ String\ representation\ of\ this\ FullTimeEmployee\ object\ with\ the\ \r\n\ \ name\ followed\ by\ a\ space\ followed\ by\ a\ dollar\ sign\ followed\ by\ the\ gross\ \r\n\ \ weekly\ pay,\ with\ two\ fractional\ digits\ (rounded),\ followed\ by\ "\ \ FULL\ TIME".\r\n\r\n\ \ @return\ a\ String\ representation\ of\ this\ FullTimeEmployee\ object.\r\n\r\n
+numComments=5

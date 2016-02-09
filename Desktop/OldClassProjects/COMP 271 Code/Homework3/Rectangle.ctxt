@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=double\ computeArea()
+comment0.text=\r\n\ \ \ \r\n\r\n\ \ Given\ a\ rectangle\ object,\ returns\ the\ product\ of\ length\ and\ width\ as\ the\ area.\r\n\ \r\n
+comment1.params=
+comment1.target=double\ computePerimeter()
+comment1.text=\r\n\ \ Given\ a\ rectangle\ object,\ returns\ the\ sum\ of\ the\ lengths\ of\ the\ four\ sides\ as\ the\ perimeter.\r\n\r\n
+comment2.params=
+comment2.target=void\ displayRectangle()
+comment2.text=\ \ given\ a\ rectangle,\ this\ method\ outputs\ the\ value\ of\ the\ length\ and\ the\ width\ of\ the\ rectangle.\ \ No\ picture\r\nis\ needed.\r\n\r\n\r\n\r\n
+numComments=3

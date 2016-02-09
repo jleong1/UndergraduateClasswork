@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HourlyEmployee()
+comment0.text=\r\n\ \ Initializes\ this\ full-time\ HourlyEmployee\ object\ to\ have\ an\ empty\ string\ for\r\n\ \ the\ name,\ 0\ for\ hours\ worked,\ 0.00\ for\ the\ pay\ rate,\ grossPay,\ regularPay\r\n\ \ and\ overtimePay.\r\n\r\n
+comment1.params=name\ hoursWorked\ payRate
+comment1.target=HourlyEmployee(java.lang.String,\ int,\ double)
+comment1.text=\r\n\ \ Initializes\ this\ full-time\ HourlyEmployee\ object's\ name\ and\ gross\ pay\ from\ a\r\n\ \ a\ specified\ name,\ hours\ worked\ and\ pay\ rate.\ \ If\ the\ hours\ worked\ is\r\n\ \ at\ most\ MAX_REGULAR_HOURS,\ the\ gross\ pay\ is\ the\ hours\ worked\ times\ \r\n\ \ the\ pay\ rate.\ Otherwise,\ the\ gross\ pay\ is\ MAX_REGULAR_HOURS\ time\ the\r\n\ \ pay\ rate,\ plus\ the\ pay\ rate\ times\ OVERTIME_FACTOR\ for\ all\ overtime\ hours.\r\n\r\n\ \ @param\ name\ -\ the\ specified\ name.\r\n\ \ @param\ hoursWorked\ -\ the\ specified\ hours\ worked.\ \ \ \ \ \r\n\ \ @param\ payRate\ -\ the\ specified\ pay\ rate.\r\n\r\n
+comment2.params=
+comment2.target=int\ getHoursWorked()
+comment2.text=\r\n\ \ Returns\ the\ hours\ worked\ by\ this\ full-time\ HourlyEmployee\ object.\ \ \ \ \ \r\n\r\n\ \ @return\ the\ hours\ worked\ by\ this\ full-time\ HourlyEmployee\ object.\r\n\ \r\n
+comment3.params=
+comment3.target=double\ getPayRate()
+comment3.text=\r\n\ \ Returns\ the\ pay\ rate\ of\ this\ full-time\ HourlyEmployee\ object.\ \ \ \ \ \r\n\r\n\ \ @return\ the\ pay\ rate\ this\ full-time\ HourlyEmployee\ object.\r\n\ \r\n
+comment4.params=
+comment4.target=double\ getRegularPay()
+comment4.text=\r\n\ \ Returns\ the\ regular\ pay\ of\ this\ full-time\ HourlyEmployee\ object.\ \ \ \ \ \r\n\r\n\ \ @return\ the\ regular\ pay\ this\ full-time\ HourlyEmployee\ object.\r\n\ \r\n
+comment5.params=
+comment5.target=double\ getOvertimePay()
+comment5.text=\r\n\ \ Returns\ the\ overtime\ pay\ of\ this\ full-time\ HourlyEmployee\ object.\ \ \ \ \ \r\n\r\n\ \ @return\ the\ overtime\ pay\ this\ full-time\ HourlyEmployee\ object.\r\n\ \r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ \ Returns\ a\ String\ representation\ of\ this\ full-time\ HourlyEmployee\ object\ with\ the\ \r\n\ \ name\ followed\ by\ a\ space\ followed\ by\ a\ dollar\ sign\ followed\ by\ the\ gross\ pay\ \r\n\ \ (with\ two\ fractional\ digits)\ followed\ by\ "\ FULL\ TIME\ HOURLY".\r\n\r\n\ \ @return\ a\ String\ representation\ of\ this\ full-time\ HourlyEmployee\ object.\r\n\r\n
+numComments=7

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=void\ run()
+comment1.text=\r\n\ \ Determines\ and\ prints\ out\ the\ best\ paid\ of\ the\ full-time\ employees\ \r\n\ \ scanned\ in\ from\ a\ specified\ file.\ \r\n\r\n
+comment2.params=sc
+comment2.target=FullTimeEmployee\ findBestPaid(java.util.Scanner)
+comment2.text=\r\n\ \ Returns\ the\ best\ paid\ of\ all\ the\ full-time\ employees\ scanned\ in.\ \r\n\ \ \r\n\ \ @param\ sc\ \uFFFD\ the\ Scanner\ object\ used\ to\ scan\ in\ the\ employees.\r\n\r\n\ \ @return\ the\ best\ paid\ of\ all\ the\ full-time\ employees\ scanned\ in,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ or\ null\ there\ were\ no\ employees\ scanned\ in.\r\n\r\n
+comment3.params=sc
+comment3.target=FullTimeEmployee\ getNextEmployee(java.util.Scanner)
+comment3.text=\r\n\ \ Returns\ the\ next\ full-time\ employee\ from\ the\ file\ scanned\ by\ a\ specified\ Scanner\ \r\n\ \ object.\r\n\ \ \r\n\ \ @param\ sc\ \uFFFD\ the\ Scanner\ object\ over\ the\ file.\r\n\r\n\ \ @return\ the\ next\ full-time\ employee\ scanned\ in\ from\ sc.\r\n\r\n
+numComments=4

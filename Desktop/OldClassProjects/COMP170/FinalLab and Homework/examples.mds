@@ -1,0 +1,495 @@
+<Combine fileversion="2.0">
+  <Policies>
+    <TextStylePolicy TabWidth="3" IndentWidth="3" NoTabsAfterNonTabs="True" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" />
+    <CSharpFormattingPolicy AlignEmbeddedUsingStatements="False" AlignEmbeddedIfStatements="False" BeforeMethodDeclarationParentheses="False" BeforeMethodCallParentheses="False" BeforeConstructorDeclarationParentheses="False" BeforeIndexerDeclarationBracket="False" BeforeDelegateDeclarationParentheses="False" NewParentheses="False" SpacesBeforeBrackets="False" inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" />
+    <TextStylePolicy TabsToSpaces="False" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/plain" />
+    <DotNetNamingPolicy DirectoryNamespaceAssociation="None" ResourceNamePolicy="FileFormatDefault" />
+  </Policies>
+  <Configurations active="Debug|x86">
+    <Configuration name="Debug|x86" ctype="CombineConfiguration">
+      <Entry build="True" name="hello" configuration="Debug|x86" />
+      <Entry build="True" name="ui" configuration="Debug" />
+      <Entry build="True" name="vowels" configuration="Debug|x86" />
+      <Entry build="True" name="addition1" configuration="Debug|x86" />
+      <Entry build="True" name="addition2" configuration="Debug|x86" />
+      <Entry build="True" name="addition3" configuration="Debug|x86" />
+      <Entry build="True" name="at_sign_strings" configuration="Debug|x86" />
+      <Entry build="True" name="array_lab_stub" configuration="Debug|x86" />
+      <Entry build="True" name="bad_scope" configuration="Debug|x86" />
+      <Entry build="True" name="bad_sum" configuration="Debug|x86" />
+      <Entry build="True" name="birthday_who" configuration="Debug|x86" />
+      <Entry build="True" name="birthday1" configuration="Debug|x86" />
+      <Entry build="True" name="birthday2" configuration="Debug|x86" />
+      <Entry build="True" name="birthday3" configuration="Debug|x86" />
+      <Entry build="True" name="birthday4" configuration="Debug|x86" />
+      <Entry build="True" name="bisection_method" configuration="Debug|x86" />
+      <Entry build="True" name="blastoff" configuration="Debug|x86" />
+      <Entry build="True" name="char_loop1" configuration="Debug|x86" />
+      <Entry build="True" name="check_digits1" configuration="Debug|x86" />
+      <Entry build="True" name="check_digits2" configuration="Debug|x86" />
+      <Entry build="True" name="clothes" configuration="Debug|x86" />
+      <Entry build="True" name="constant" configuration="Debug|x86" />
+      <Entry build="True" name="cool" configuration="Debug|x86" />
+      <Entry build="True" name="count_words" configuration="Debug|x86" />
+      <Entry build="True" name="do_the_math_stub" configuration="Debug|x86" />
+      <Entry build="True" name="english_spanish" configuration="Debug|x86" />
+      <Entry build="True" name="example_class" configuration="Debug|x86" />
+      <Entry build="True" name="fake_help_verbose" configuration="Debug|x86" />
+      <Entry build="True" name="first_file" configuration="Debug|x86" />
+      <Entry build="True" name="g_c_d_basic" configuration="Debug|x86" />
+      <Entry build="True" name="g_c_d_euclid_recursive" configuration="Debug|x86" />
+      <Entry build="True" name="g_c_d_remainder_loop" configuration="Debug|x86" />
+      <Entry build="True" name="g_c_d_subtraction_method" configuration="Debug|x86" />
+      <Entry build="True" name="gcdbruteforce" configuration="Debug|x86" />
+      <Entry build="True" name="glazer_calc" configuration="Debug|x86" />
+      <Entry build="True" name="good_scope" configuration="Debug|x86" />
+      <Entry build="True" name="good_sum" configuration="Debug|x86" />
+      <Entry build="True" name="grade1" configuration="Debug|x86" />
+      <Entry build="True" name="hello_you1" configuration="Debug|x86" />
+      <Entry build="True" name="hello_you2" configuration="Debug|x86" />
+      <Entry build="True" name="input_in_range1" configuration="Debug|x86" />
+      <Entry build="True" name="input_in_range2" configuration="Debug|x86" />
+      <Entry build="True" name="input_in_range2_bad" configuration="Debug|x86" />
+      <Entry build="True" name="loop_lab_stub" configuration="Debug|x86" />
+      <Entry build="True" name="mod7_table" configuration="Debug|x86" />
+      <Entry build="True" name="mod_mult_table" configuration="Debug|x86" />
+      <Entry build="True" name="painting" configuration="Debug|x86" />
+      <Entry build="True" name="power_table" configuration="Debug|x86" />
+      <Entry build="True" name="print_file_lines" configuration="Debug|x86" />
+      <Entry build="True" name="print_first_file" configuration="Debug|x86" />
+      <Entry build="True" name="print_param" configuration="Debug|x86" />
+      <Entry build="True" name="print_table" configuration="Debug|x86" />
+      <Entry build="True" name="return1" configuration="Debug|x86" />
+      <Entry build="True" name="return2" configuration="Debug|x86" />
+      <Entry build="True" name="safe_number_input_stub" configuration="Debug|x86" />
+      <Entry build="True" name="static_version" configuration="Debug|x86" />
+      <Entry build="True" name="strange_seq_stub" configuration="Debug|x86" />
+      <Entry build="True" name="string_manip_stub" configuration="Debug|x86" />
+      <Entry build="True" name="string_play" configuration="Debug|x86" />
+      <Entry build="True" name="suitcase" configuration="Debug|x86" />
+      <Entry build="True" name="sum_to_n_long_bad" configuration="Debug|x86" />
+      <Entry build="True" name="sum_to_n_long_bad2" configuration="Debug|x86" />
+      <Entry build="True" name="sum_to_n_long_quick" configuration="Debug|x86" />
+      <Entry build="True" name="sum_to_n_test" configuration="Debug|x86" />
+      <Entry build="True" name="sum_to_n_test_long" configuration="Debug|x86" />
+      <Entry build="True" name="test_agree_stub" configuration="Debug|x86" />
+      <Entry build="True" name="test_input_whole_stub" configuration="Debug|x86" />
+      <Entry build="True" name="test_rational" configuration="Debug|x86" />
+      <Entry build="True" name="test_while1" configuration="Debug|x86" />
+      <Entry build="True" name="test_while2" configuration="Debug|x86" />
+      <Entry build="True" name="vowels2" configuration="Debug|x86" />
+      <Entry build="True" name="wages1" configuration="Debug|x86" />
+      <Entry build="True" name="wages2" configuration="Debug|x86" />
+      <Entry build="True" name="word_search_puzzle" configuration="Debug|x86" />
+      <Entry build="True" name="write_test" configuration="Debug|x86" />
+      <Entry build="True" name="rational_nunit" configuration="Debug" />
+      <Entry build="True" name="sorting" configuration="Debug|x86" />
+      <Entry build="True" name="searching" configuration="Debug|x86" />
+      <Entry build="True" name="binary_searching" configuration="Debug|x86" />
+      <Entry build="True" name="csproject_stub" configuration="Debug|x86" />
+      <Entry build="True" name="dict_lab_stub" configuration="Debug|x86" />
+      <Entry build="True" name="grade_file_homework_stub" configuration="Debug|x86" />
+      <Entry build="True" name="igame_stub" configuration="Debug|x86" />
+      <Entry build="True" name="interfaces" configuration="Debug|x86" />
+      <Entry build="True" name="performance_lab_stub" configuration="Debug|x86" />
+      <Entry build="True" name="music_nunit" configuration="Debug" />
+      <Entry build="True" name="animal_lab_stub" configuration="Debug|x86" />
+      <Entry build="True" name="books_homework_stub" configuration="Debug|x86" />
+      <Entry build="True" name="fio" configuration="Debug" />
+      <Entry build="True" name="fio_usage" configuration="Debug|x86" />
+      <Entry build="True" name="path" configuration="Debug|x86" />
+      <Entry build="True" name="cs_project1" configuration="Debug|x86" />
+      <Entry build="True" name="ok_if_scope" configuration="Debug|x86" />
+      <Entry build="True" name="test_readkey" configuration="Debug|x86" />
+      <Entry build="True" name="sum_file" configuration="Debug|x86" />
+    </Configuration>
+    <Configuration name="Release|x86" ctype="CombineConfiguration">
+      <Entry build="True" name="hello" configuration="Release|x86" />
+      <Entry build="True" name="ui" configuration="Release" />
+      <Entry build="True" name="vowels" configuration="Release|x86" />
+      <Entry build="True" name="addition1" configuration="Release|x86" />
+      <Entry build="True" name="addition2" configuration="Release|x86" />
+      <Entry build="True" name="addition3" configuration="Release|x86" />
+      <Entry build="True" name="at_sign_strings" configuration="Release|x86" />
+      <Entry build="True" name="array_lab_stub" configuration="Release|x86" />
+      <Entry build="True" name="bad_scope" configuration="Release|x86" />
+      <Entry build="True" name="bad_sum" configuration="Release|x86" />
+      <Entry build="True" name="birthday_who" configuration="Release|x86" />
+      <Entry build="True" name="birthday1" configuration="Release|x86" />
+      <Entry build="True" name="birthday2" configuration="Release|x86" />
+      <Entry build="True" name="birthday3" configuration="Release|x86" />
+      <Entry build="True" name="birthday4" configuration="Release|x86" />
+      <Entry build="True" name="bisection_method" configuration="Release|x86" />
+      <Entry build="True" name="blastoff" configuration="Release|x86" />
+      <Entry build="True" name="char_loop1" configuration="Release|x86" />
+      <Entry build="True" name="check_digits1" configuration="Release|x86" />
+      <Entry build="True" name="check_digits2" configuration="Release|x86" />
+      <Entry build="True" name="clothes" configuration="Release|x86" />
+      <Entry build="True" name="constant" configuration="Release|x86" />
+      <Entry build="True" name="cool" configuration="Release|x86" />
+      <Entry build="True" name="count_words" configuration="Release|x86" />
+      <Entry build="True" name="do_the_math_stub" configuration="Release|x86" />
+      <Entry build="True" name="english_spanish" configuration="Release|x86" />
+      <Entry build="True" name="example_class" configuration="Release|x86" />
+      <Entry build="True" name="fake_help_verbose" configuration="Release|x86" />
+      <Entry build="True" name="first_file" configuration="Release|x86" />
+      <Entry build="True" name="g_c_d_basic" configuration="Release|x86" />
+      <Entry build="True" name="g_c_d_euclid_recursive" configuration="Release|x86" />
+      <Entry build="True" name="g_c_d_remainder_loop" configuration="Release|x86" />
+      <Entry build="True" name="g_c_d_subtraction_method" configuration="Release|x86" />
+      <Entry build="True" name="gcdbruteforce" configuration="Release|x86" />
+      <Entry build="True" name="glazer_calc" configuration="Release|x86" />
+      <Entry build="True" name="good_scope" configuration="Release|x86" />
+      <Entry build="True" name="good_sum" configuration="Release|x86" />
+      <Entry build="True" name="grade1" configuration="Release|x86" />
+      <Entry build="True" name="hello_you1" configuration="Release|x86" />
+      <Entry build="True" name="hello_you2" configuration="Release|x86" />
+      <Entry build="True" name="input_in_range1" configuration="Release|x86" />
+      <Entry build="True" name="input_in_range2" configuration="Release|x86" />
+      <Entry build="True" name="input_in_range2_bad" configuration="Release|x86" />
+      <Entry build="True" name="loop_lab_stub" configuration="Release|x86" />
+      <Entry build="True" name="mod7_table" configuration="Release|x86" />
+      <Entry build="True" name="mod_mult_table" configuration="Release|x86" />
+      <Entry build="True" name="painting" configuration="Release|x86" />
+      <Entry build="True" name="power_table" configuration="Release|x86" />
+      <Entry build="True" name="print_file_lines" configuration="Release|x86" />
+      <Entry build="True" name="print_first_file" configuration="Release|x86" />
+      <Entry build="True" name="print_param" configuration="Release|x86" />
+      <Entry build="True" name="print_table" configuration="Release|x86" />
+      <Entry build="True" name="return1" configuration="Release|x86" />
+      <Entry build="True" name="return2" configuration="Release|x86" />
+      <Entry build="True" name="safe_number_input_stub" configuration="Release|x86" />
+      <Entry build="True" name="static_version" configuration="Release|x86" />
+      <Entry build="True" name="strange_seq_stub" configuration="Release|x86" />
+      <Entry build="True" name="string_manip_stub" configuration="Release|x86" />
+      <Entry build="True" name="string_play" configuration="Release|x86" />
+      <Entry build="True" name="suitcase" configuration="Release|x86" />
+      <Entry build="True" name="sum_to_n_long_bad" configuration="Release|x86" />
+      <Entry build="True" name="sum_to_n_long_bad2" configuration="Release|x86" />
+      <Entry build="True" name="sum_to_n_long_quick" configuration="Release|x86" />
+      <Entry build="True" name="sum_to_n_test" configuration="Release|x86" />
+      <Entry build="True" name="sum_to_n_test_long" configuration="Release|x86" />
+      <Entry build="True" name="test_agree_stub" configuration="Release|x86" />
+      <Entry build="True" name="test_input_whole_stub" configuration="Release|x86" />
+      <Entry build="True" name="test_rational" configuration="Release|x86" />
+      <Entry build="True" name="test_while1" configuration="Release|x86" />
+      <Entry build="True" name="test_while2" configuration="Release|x86" />
+      <Entry build="True" name="vowels2" configuration="Release|x86" />
+      <Entry build="True" name="wages1" configuration="Release|x86" />
+      <Entry build="True" name="wages2" configuration="Release|x86" />
+      <Entry build="True" name="word_search_puzzle" configuration="Release|x86" />
+      <Entry build="True" name="write_test" configuration="Release|x86" />
+      <Entry build="True" name="rational_nunit" configuration="Release" />
+      <Entry build="True" name="sorting" configuration="Release|x86" />
+      <Entry build="True" name="searching" configuration="Release|x86" />
+      <Entry build="True" name="binary_searching" configuration="Release|x86" />
+      <Entry build="True" name="csproject_stub" configuration="Release|x86" />
+      <Entry build="True" name="dict_lab_stub" configuration="Release|x86" />
+      <Entry build="True" name="grade_file_homework_stub" configuration="Release|x86" />
+      <Entry build="True" name="igame_stub" configuration="Release|x86" />
+      <Entry build="True" name="interfaces" configuration="Release|x86" />
+      <Entry build="True" name="performance_lab_stub" configuration="Release|x86" />
+      <Entry build="True" name="music_nunit" configuration="Release" />
+      <Entry build="True" name="animal_lab_stub" configuration="Release|x86" />
+      <Entry build="True" name="books_homework_stub" configuration="Release|x86" />
+      <Entry build="True" name="fio" configuration="Release" />
+      <Entry build="True" name="fio_usage" configuration="Release|x86" />
+      <Entry build="True" name="path" configuration="Release|x86" />
+      <Entry build="True" name="cs_project1" configuration="Release|x86" />
+      <Entry build="True" name="ok_if_scope" configuration="Release|x86" />
+      <Entry build="True" name="test_readkey" configuration="Release|x86" />
+      <Entry build="True" name="sum_file" configuration="Release|x86" />
+    </Configuration>
+    <Configuration name="Default" ctype="CombineConfiguration">
+      <Entry build="True" name="hello" configuration="Default" />
+      <Entry build="True" name="ui" configuration="Default" />
+      <Entry build="True" name="vowels" configuration="Default" />
+      <Entry build="True" name="addition1" configuration="Default" />
+      <Entry build="True" name="addition2" configuration="Default" />
+      <Entry build="True" name="addition3" configuration="Default" />
+      <Entry build="True" name="at_sign_strings" configuration="Default" />
+      <Entry build="True" name="array_lab_stub" configuration="Default" />
+      <Entry build="True" name="bad_scope" configuration="Default" />
+      <Entry build="True" name="bad_sum" configuration="Default" />
+      <Entry build="True" name="birthday_who" configuration="Default" />
+      <Entry build="True" name="birthday1" configuration="Default" />
+      <Entry build="True" name="birthday2" configuration="Default" />
+      <Entry build="True" name="birthday3" configuration="Default" />
+      <Entry build="True" name="birthday4" configuration="Default" />
+      <Entry build="True" name="bisection_method" configuration="Default" />
+      <Entry build="True" name="blastoff" configuration="Default" />
+      <Entry build="True" name="char_loop1" configuration="Default" />
+      <Entry build="True" name="check_digits1" configuration="Default" />
+      <Entry build="True" name="check_digits2" configuration="Default" />
+      <Entry build="True" name="clothes" configuration="Default" />
+      <Entry build="True" name="constant" configuration="Default" />
+      <Entry build="True" name="cool" configuration="Default" />
+      <Entry build="True" name="count_words" configuration="Default" />
+      <Entry build="True" name="do_the_math_stub" configuration="Default" />
+      <Entry build="True" name="english_spanish" configuration="Default" />
+      <Entry build="True" name="example_class" configuration="Default" />
+      <Entry build="True" name="fake_help_verbose" configuration="Default" />
+      <Entry build="True" name="first_file" configuration="Default" />
+      <Entry build="True" name="g_c_d_basic" configuration="Default" />
+      <Entry build="True" name="g_c_d_euclid_recursive" configuration="Default" />
+      <Entry build="True" name="g_c_d_remainder_loop" configuration="Default" />
+      <Entry build="True" name="g_c_d_subtraction_method" configuration="Default" />
+      <Entry build="True" name="gcdbruteforce" configuration="Default" />
+      <Entry build="True" name="glazer_calc" configuration="Default" />
+      <Entry build="True" name="good_scope" configuration="Default" />
+      <Entry build="True" name="good_sum" configuration="Default" />
+      <Entry build="True" name="grade1" configuration="Default" />
+      <Entry build="True" name="hello_you1" configuration="Default" />
+      <Entry build="True" name="hello_you2" configuration="Default" />
+      <Entry build="True" name="input_in_range1" configuration="Default" />
+      <Entry build="True" name="input_in_range2" configuration="Default" />
+      <Entry build="True" name="input_in_range2_bad" configuration="Default" />
+      <Entry build="True" name="loop_lab_stub" configuration="Default" />
+      <Entry build="True" name="mod7_table" configuration="Default" />
+      <Entry build="True" name="mod_mult_table" configuration="Default" />
+      <Entry build="True" name="painting" configuration="Default" />
+      <Entry build="True" name="power_table" configuration="Default" />
+      <Entry build="True" name="print_file_lines" configuration="Default" />
+      <Entry build="True" name="print_first_file" configuration="Default" />
+      <Entry build="True" name="print_param" configuration="Default" />
+      <Entry build="True" name="print_table" configuration="Default" />
+      <Entry build="True" name="return1" configuration="Default" />
+      <Entry build="True" name="return2" configuration="Default" />
+      <Entry build="True" name="safe_number_input_stub" configuration="Default" />
+      <Entry build="True" name="static_version" configuration="Default" />
+      <Entry build="True" name="strange_seq_stub" configuration="Default" />
+      <Entry build="True" name="string_manip_stub" configuration="Default" />
+      <Entry build="True" name="string_play" configuration="Default" />
+      <Entry build="True" name="suitcase" configuration="Default" />
+      <Entry build="True" name="sum_to_n_long_bad" configuration="Default" />
+      <Entry build="True" name="sum_to_n_long_bad2" configuration="Default" />
+      <Entry build="True" name="sum_to_n_long_quick" configuration="Default" />
+      <Entry build="True" name="sum_to_n_test" configuration="Default" />
+      <Entry build="True" name="sum_to_n_test_long" configuration="Default" />
+      <Entry build="True" name="test_agree_stub" configuration="Default" />
+      <Entry build="True" name="test_input_whole_stub" configuration="Default" />
+      <Entry build="True" name="test_rational" configuration="Default" />
+      <Entry build="True" name="test_while1" configuration="Default" />
+      <Entry build="True" name="test_while2" configuration="Default" />
+      <Entry build="True" name="vowels2" configuration="Default" />
+      <Entry build="True" name="wages1" configuration="Default" />
+      <Entry build="True" name="wages2" configuration="Default" />
+      <Entry build="True" name="word_search_puzzle" configuration="Default" />
+      <Entry build="True" name="write_test" configuration="Default" />
+      <Entry build="True" name="rational_nunit" configuration="Debug" />
+      <Entry build="True" name="sorting" configuration="Debug|x86" />
+      <Entry build="True" name="searching" configuration="Debug|x86" />
+      <Entry build="True" name="binary_searching" configuration="Debug|x86" />
+      <Entry build="True" name="csproject_stub" configuration="Debug|x86" />
+      <Entry build="True" name="dict_lab_stub" configuration="Debug|x86" />
+      <Entry build="True" name="grade_file_homework_stub" configuration="Debug|x86" />
+      <Entry build="True" name="igame_stub" configuration="Debug|x86" />
+      <Entry build="True" name="interfaces" configuration="Debug|x86" />
+      <Entry build="True" name="performance_lab_stub" configuration="Debug|x86" />
+      <Entry build="True" name="music_nunit" configuration="Debug" />
+      <Entry build="True" name="animal_lab_stub" configuration="Debug|x86" />
+      <Entry build="True" name="books_homework_stub" configuration="Debug|x86" />
+      <Entry build="True" name="fio" configuration="Debug" />
+      <Entry build="True" name="fio_usage" configuration="Debug|x86" />
+      <Entry build="True" name="path" configuration="Debug|x86" />
+      <Entry build="True" name="cs_project1" configuration="Debug|x86" />
+      <Entry build="True" name="ok_if_scope" configuration="Debug|x86" />
+      <Entry build="True" name="test_readkey" configuration="Debug|x86" />
+      <Entry build="True" name="sum_file" configuration="Debug|x86" />
+    </Configuration>
+  </Configurations>
+  <StartMode startupentry="hello" single="True">
+    <Execute type="None" entry="hello" />
+    <Execute type="None" entry="ui" />
+    <Execute type="None" entry="vowels" />
+    <Execute type="None" entry="addition1" />
+    <Execute type="None" entry="addition2" />
+    <Execute type="None" entry="addition3" />
+    <Execute type="None" entry="at_sign_strings" />
+    <Execute type="None" entry="array_lab_stub" />
+    <Execute type="None" entry="bad_scope" />
+    <Execute type="None" entry="bad_sum" />
+    <Execute type="None" entry="birthday_who" />
+    <Execute type="None" entry="birthday1" />
+    <Execute type="None" entry="birthday2" />
+    <Execute type="None" entry="birthday3" />
+    <Execute type="None" entry="birthday4" />
+    <Execute type="None" entry="bisection_method" />
+    <Execute type="None" entry="blastoff" />
+    <Execute type="None" entry="char_loop1" />
+    <Execute type="None" entry="check_digits1" />
+    <Execute type="None" entry="check_digits2" />
+    <Execute type="None" entry="clothes" />
+    <Execute type="None" entry="constant" />
+    <Execute type="None" entry="cool" />
+    <Execute type="None" entry="count_words" />
+    <Execute type="None" entry="do_the_math_stub" />
+    <Execute type="None" entry="english_spanish" />
+    <Execute type="None" entry="example_class" />
+    <Execute type="None" entry="fake_help_verbose" />
+    <Execute type="None" entry="first_file" />
+    <Execute type="None" entry="g_c_d_basic" />
+    <Execute type="None" entry="g_c_d_euclid_recursive" />
+    <Execute type="None" entry="g_c_d_remainder_loop" />
+    <Execute type="None" entry="g_c_d_subtraction_method" />
+    <Execute type="None" entry="gcdbruteforce" />
+    <Execute type="None" entry="glazer_calc" />
+    <Execute type="None" entry="good_scope" />
+    <Execute type="None" entry="good_sum" />
+    <Execute type="None" entry="grade1" />
+    <Execute type="None" entry="hello_you1" />
+    <Execute type="None" entry="hello_you2" />
+    <Execute type="None" entry="input_in_range1" />
+    <Execute type="None" entry="input_in_range2" />
+    <Execute type="None" entry="input_in_range2_bad" />
+    <Execute type="None" entry="loop_lab_stub" />
+    <Execute type="None" entry="mod7_table" />
+    <Execute type="None" entry="mod_mult_table" />
+    <Execute type="None" entry="painting" />
+    <Execute type="None" entry="power_table" />
+    <Execute type="None" entry="print_file_lines" />
+    <Execute type="None" entry="print_first_file" />
+    <Execute type="None" entry="print_param" />
+    <Execute type="None" entry="print_table" />
+    <Execute type="None" entry="return1" />
+    <Execute type="None" entry="return2" />
+    <Execute type="None" entry="safe_number_input_stub" />
+    <Execute type="None" entry="static_version" />
+    <Execute type="None" entry="strange_seq_stub" />
+    <Execute type="None" entry="string_manip_stub" />
+    <Execute type="None" entry="string_play" />
+    <Execute type="None" entry="suitcase" />
+    <Execute type="None" entry="sum_to_n_long_bad" />
+    <Execute type="None" entry="sum_to_n_long_bad2" />
+    <Execute type="None" entry="sum_to_n_long_quick" />
+    <Execute type="None" entry="sum_to_n_test" />
+    <Execute type="None" entry="sum_to_n_test_long" />
+    <Execute type="None" entry="test_agree_stub" />
+    <Execute type="None" entry="test_input_whole_stub" />
+    <Execute type="None" entry="test_rational" />
+    <Execute type="None" entry="test_while1" />
+    <Execute type="None" entry="test_while2" />
+    <Execute type="None" entry="vowels2" />
+    <Execute type="None" entry="wages1" />
+    <Execute type="None" entry="wages2" />
+    <Execute type="None" entry="word_search_puzzle" />
+    <Execute type="None" entry="write_test" />
+    <Execute type="None" entry="rational_nunit" />
+    <Execute type="None" entry="sorting" />
+    <Execute type="None" entry="searching" />
+    <Execute type="None" entry="binary_searching" />
+    <Execute type="None" entry="csproject_stub" />
+    <Execute type="None" entry="dict_lab_stub" />
+    <Execute type="None" entry="grade_file_homework_stub" />
+    <Execute type="None" entry="igame_stub" />
+    <Execute type="None" entry="interfaces" />
+    <Execute type="None" entry="performance_lab_stub" />
+    <Execute type="None" entry="music_nunit" />
+    <Execute type="None" entry="animal_lab_stub" />
+    <Execute type="None" entry="books_homework_stub" />
+    <Execute type="None" entry="fio" />
+    <Execute type="None" entry="fio_usage" />
+    <Execute type="None" entry="path" />
+    <Execute type="None" entry="cs_project1" />
+    <Execute type="None" entry="ok_if_scope" />
+    <Execute type="None" entry="test_readkey" />
+    <Execute type="None" entry="sum_file" />
+  </StartMode>
+  <Entries>
+    <Entry filename="hello\hello.mdp" />
+    <Entry filename="ui\ui.mdp" />
+    <Entry filename="vowels\vowels.mdp" />
+    <Entry filename="addition1\addition1.mdp" />
+    <Entry filename="addition2\addition2.mdp" />
+    <Entry filename="addition3\addition3.mdp" />
+    <Entry filename="at_sign_strings\at_sign_strings.mdp" />
+    <Entry filename="array_lab_stub\array_lab_stub.mdp" />
+    <Entry filename="bad_scope\bad_scope.mdp" />
+    <Entry filename="bad_sum\bad_sum.mdp" />
+    <Entry filename="birthday_who\birthday_who.mdp" />
+    <Entry filename="birthday1\birthday1.mdp" />
+    <Entry filename="birthday2\birthday2.mdp" />
+    <Entry filename="birthday3\birthday3.mdp" />
+    <Entry filename="birthday4\birthday4.mdp" />
+    <Entry filename="bisection_method\bisection_method.mdp" />
+    <Entry filename="blastoff\blastoff.mdp" />
+    <Entry filename="char_loop1\char_loop1.mdp" />
+    <Entry filename="check_digits1\check_digits1.mdp" />
+    <Entry filename="check_digits2\check_digits2.mdp" />
+    <Entry filename="clothes\clothes.mdp" />
+    <Entry filename="constant\constant.mdp" />
+    <Entry filename="cool\cool.mdp" />
+    <Entry filename="count_words\count_words.mdp" />
+    <Entry filename="do_the_math_stub\do_the_math_stub.mdp" />
+    <Entry filename="english_spanish\english_spanish.mdp" />
+    <Entry filename="example_class\example_class.mdp" />
+    <Entry filename="fake_help_verbose\fake_help_verbose.mdp" />
+    <Entry filename="first_file\first_file.mdp" />
+    <Entry filename="g_c_d_basic\g_c_d_basic.mdp" />
+    <Entry filename="g_c_d_euclid_recursive\g_c_d_euclid_recursive.mdp" />
+    <Entry filename="g_c_d_remainder_loop\g_c_d_remainder_loop.mdp" />
+    <Entry filename="g_c_d_subtraction_method\g_c_d_subtraction_method.mdp" />
+    <Entry filename="gcdbruteforce\gcdbruteforce.mdp" />
+    <Entry filename="glazer_calc\glazer_calc.mdp" />
+    <Entry filename="good_scope\good_scope.mdp" />
+    <Entry filename="good_sum\good_sum.mdp" />
+    <Entry filename="grade1\grade1.mdp" />
+    <Entry filename="hello_you1\hello_you1.mdp" />
+    <Entry filename="hello_you2\hello_you2.mdp" />
+    <Entry filename="input_in_range1\input_in_range1.mdp" />
+    <Entry filename="input_in_range2\input_in_range2.mdp" />
+    <Entry filename="input_in_range2_bad\input_in_range2_bad.mdp" />
+    <Entry filename="loop_lab_stub\loop_lab_stub.mdp" />
+    <Entry filename="mod7_table\mod7_table.mdp" />
+    <Entry filename="mod_mult_table\mod_mult_table.mdp" />
+    <Entry filename="painting\painting.mdp" />
+    <Entry filename="power_table\power_table.mdp" />
+    <Entry filename="print_file_lines\print_file_lines.mdp" />
+    <Entry filename="print_first_file\print_first_file.mdp" />
+    <Entry filename="print_param\print_param.mdp" />
+    <Entry filename="print_table\print_table.mdp" />
+    <Entry filename="return1\return1.mdp" />
+    <Entry filename="return2\return2.mdp" />
+    <Entry filename="safe_number_input_stub\safe_number_input_stub.mdp" />
+    <Entry filename="static_version\static_version.mdp" />
+    <Entry filename="strange_seq_stub\strange_seq_stub.mdp" />
+    <Entry filename="string_manip_stub\string_manip_stub.mdp" />
+    <Entry filename="string_play\string_play.mdp" />
+    <Entry filename="suitcase\suitcase.mdp" />
+    <Entry filename="sum_to_n_long_bad\sum_to_n_long_bad.mdp" />
+    <Entry filename="sum_to_n_long_bad2\sum_to_n_long_bad2.mdp" />
+    <Entry filename="sum_to_n_long_quick\sum_to_n_long_quick.mdp" />
+    <Entry filename="sum_to_n_test\sum_to_n_test.mdp" />
+    <Entry filename="sum_to_n_test_long\sum_to_n_test_long.mdp" />
+    <Entry filename="test_agree_stub\test_agree_stub.mdp" />
+    <Entry filename="test_input_whole_stub\test_input_whole_stub.mdp" />
+    <Entry filename="test_rational\test_rational.mdp" />
+    <Entry filename="test_while1\test_while1.mdp" />
+    <Entry filename="test_while2\test_while2.mdp" />
+    <Entry filename="vowels2\vowels2.mdp" />
+    <Entry filename="wages1\wages1.mdp" />
+    <Entry filename="wages2\wages2.mdp" />
+    <Entry filename="word_search_puzzle\word_search_puzzle.mdp" />
+    <Entry filename="write_test\write_test.mdp" />
+    <Entry filename="rational_nunit\rational_nunit.mdp" />
+    <Entry filename="sorting\sorting.mdp" />
+    <Entry filename="searching\searching.mdp" />
+    <Entry filename="binary_searching\binary_searching.mdp" />
+    <Entry filename="csproject_stub\csproject_stub.mdp" />
+    <Entry filename="dict_lab_stub\dict_lab_stub.mdp" />
+    <Entry filename="grade_file_homework_stub\grade_file_homework_stub.mdp" />
+    <Entry filename="igame_stub\igame_stub.mdp" />
+    <Entry filename="interfaces\interfaces.mdp" />
+    <Entry filename="performance_lab_stub\performance_lab_stub.mdp" />
+    <Entry filename="music_nunit\music_nunit.mdp" />
+    <Entry filename="animal_lab_stub\animal_lab_stub.mdp" />
+    <Entry filename="books_homework_stub\books_homework_stub.mdp" />
+    <Entry filename="fio\fio.mdp" />
+    <Entry filename="fio_usage\fio_usage.mdp" />
+    <Entry filename="path\path.mdp" />
+    <Entry filename="cs_project1\cs_project1.mdp" />
+    <Entry filename="ok_if_scope\ok_if_scope.mdp" />
+    <Entry filename="test_readkey\test_readkey.mdp" />
+    <Entry filename="sum_file\sum_file.mdp" />
+  </Entries>
+</Combine>

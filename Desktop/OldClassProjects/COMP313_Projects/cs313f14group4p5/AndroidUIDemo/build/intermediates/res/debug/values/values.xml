@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/Julie%20Leong/COMP313_Projects/cs313f14group4p5/AndroidUIDemo/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="dk_grey">#666666</color>
+    <color name="green">#ff00ff00</color>
+    <color name="grey">#999999</color>
+    <color name="lt_grey">#dddddd</color>
+    <color name="red">#ffff0000</color>
+    <color name="white">#ffffffff</color>
+    <!-- From: file:/C:/Users/Julie%20Leong/COMP313_Projects/cs313f14group4p5/AndroidUIDemo/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">Monster Bop</string>
+    <string name="defaultText">0</string>
+    <string name="labelGreen">Green</string>
+    <string name="labelRed">Red</string>
+    <string name="menuClear">Clear</string>
+
+</resources>

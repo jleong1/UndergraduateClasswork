@@ -1,0 +1,167 @@
+package com.oreilly.demo.android.pa.uidemo;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Color;
+import android.os.Bundle;
+import android.os.Handler;
+import android.view.ContextMenu;
+import android.view.Gravity;
+import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.ContextMenu.ContextMenuInfo;
+import android.view.View.OnFocusChangeListener;
+import android.view.View.OnKeyListener;
+import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.EditText;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.ContextMenu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ContextMenu.ContextMenuInfo;
+import android.widget.GridLayout;
+import android.widget.GridView;
+import android.widget.ImageView;
+import android.widget.TableLayout;
+import android.widget.Toast;
+import android.widget.AdapterView.AdapterContextMenuInfo;
+import java.util.ArrayList;
+import android.util.DisplayMetrics;
+
+import com.oreilly.demo.android.pa.uidemo.model.Dot;
+import com.oreilly.demo.android.pa.uidemo.model.Dots;
+import com.oreilly.demo.android.pa.uidemo.model.Monster;
+import com.oreilly.demo.android.pa.uidemo.view.DotView;
+import com.oreilly.demo.android.pa.uidemo.view.Grid;
+import com.oreilly.demo.android.pa.uidemo.model.DefaultMonster;
+
+
+
+
+public class TouchMe extends Activity {
+    private Grid grid;
+
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+
+        GridView gridview = (GridView) findViewById(R.id.gridview);
+        gridview.setAdapter(new Grid(this));
+            gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() { // interact with grid
+            public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
+                Toast.makeText(TouchMe.this, "" + position, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        grid.setCellImage(monsterModel);//figure out translate monster model to array
+        grid.setOnCreateContextMenuListener(this);
+        grid.setOnTouchListener(new TrackingTouchListener(monsterModel));
+
+        grid.setOnKeyListener(new OnKeyListener(){
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event){
+                if(KeyEvent.ACTION_DOWN != event.getAction()){
+                    return false;
+                }
+                switch(keyCode) {
+                    case KeyEvent.KEYCODE_SPACE:
+                        monsterModel.switchState();
+                        break;
+                    case KeyEvent.KEYCODE_ENTER:
+                        monsterModel.switchState();
+                        break;
+                    default:
+                        return false;
+
+                }
+                makeMonster(monsterModel, grid, color)
+            }
+        });
+    }
+
+    private static final class TrackingTouchListener implements View.OnTouchListener {
+        private final DefaultMonster kmonsters;
+        private List<Integer> tracks = new ArrayList<Integer>();
+
+        TrackingTouchListener(DefaultMonster monster) {
+            kmonsters = monster;
+        }
+
+        @Override
+        public boolean onTouch(View v, MotionEvent evt) {
+            int idx;
+            int action = evt.getAction();
+            switch (action & MotionEvent.ACTION_MASK) {
+                case MotionEvent.ACTION_DOWN:
+                case MotionEvent.ACTION_POINTER_DOWN:
+                    idx = (action & MotionEvent.ACTION_POINTER_INDEX_MASK)
+                            >> MotionEvent.ACTION_POINTER_INDEX_SHIFT;
+                    tracks.add(Integer.valueOf(evt.getPointerId(idx)));
+                    break;
+                case MotionEvent.ACTION_POINTER_UP:
+                    idx = (action & MotionEvent.ACTION_POINTER_INDEX_MASK)
+                            >> MotionEvent.ACTION_POINTER_INDEX_SHIFT;
+                    tracks.remove(Integer.valueOf(evt.getPointerId(idx)));
+                    break;
+                case MotionEvent.ACTION_MOVE:
+                    //need to make monster here
+                    addMonster();
+            }
+        }
+
+        private void addMonster(){
+            //make monster
+        }
+    }
+    private final class MonsterGenerator implements Runnable{
+        final DefaultMonster kmonsters;
+        final GridView view;
+        final int color;
+        private final Handler hdlr = new Handler();
+        private final Runnable makeMonster = new Runnable() {
+            @Override
+            public void run() {
+                makeMonster(kmonsters, view,color);
+
+            }
+        };
+
+        private volatile boolean done;
+
+        MonsterGenerator(DefaultMonster kmonsters, GridView view, int color){
+            this.kmonsters = kmonsters;
+            this.view = view;
+            this.color = color;
+        }
+
+        public void done(){
+            done = true;
+        }
+        @Override
+        public void run(){
+            while(!done){
+                hdlr.post(makeMonster);
+                try{Thread.sleep(5000)};
+                catch(InterruptedException e){}
+
+            }
+        }
+
+    }
+
+    final DefaultMonster monsterModel = new DefaultMonster();
+    GridView gridView;
+    MonsterGenerator monsterGenerator;
+
+    //updateMonsterState/
+
+}

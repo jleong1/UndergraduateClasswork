@@ -1,0 +1,13 @@
+data/test/cs271/lab/list/TestPerformance.java.i
+data/test/cs271/lab/list/TestList.java.i
+data/build.gradle.i
+data/.gitignore.i
+data/.project.i
+data/.hgtags.i
+data/.hgignore.i
+data/.classpath.i
+data/test/cs271/lab/list/TestIterator.java.i
+data/src/test/java/cs271/lab/list/TestIterator.java.i
+data/src/test/java/cs271/lab/list/TestPerformance.java.i
+data/src/test/java/cs271/lab/list/TestList.java.i
+data/README.txt.i

@@ -1,0 +1,18 @@
+When we initially started the project we tried to use the GridView feature in Android. We tried to
+make it work, but it proved too difficult to work this. This is mostly because GridView is not
+intended to be used the way we were trying to use it. After we abandoned GridView, we decided to
+draw the grid by drawing a bunch of rectangles using 'for loops' to look like a grid and using an
+array to keep the location of each rectangle for use with the monsters. To deal with the different
+states of the monsters, we used the State design pattern to create both a vulnerable state and
+protected state. For the touch sensor, we wanted to be able to read the coordinates from a touch and
+see if the coordinates matched up to a monster that was in a vulnerable state. For monster movement
+we wanted to incorporate the extra credit of having up to 1 monster in a cell. To do this we used a
+series of if...else statements to determine whether or not the monster could move into one of the
+surrounding cells. The statements would deal with if there was another monster in a neighboring cell
+or whether or not a neighboring cell existed (like if the monster was on the edge of the grid).
+For the creation of the monsters we created a thread for each monster. In the project we were
+required to follow the Model-View-Controller architecture. For the view, we have Grid.java which
+draws both the monsters and grid onto a device screen. For the model, we have DefaultMonster.java
+which handles information about the java that includes the two states "protected" and "vulnerable".
+The controller is the TouchMe.java which pulls the information from the other files and put them
+onto the grid.
